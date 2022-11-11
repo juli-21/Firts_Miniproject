@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fale conosco</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <h1>Fale conosco</h1>
+        <a href="index.html">Página inicial</a>
+        <a href="funcionamento.html">Horário de funcionamento</a>
+    </nav>
+    
+    <form action="https://httpbin.org/get" method="get">
+            <fieldset>
+                <legend>Mande uma mensagem</legend>
+            <p>
+                <label for="nome">Seu nome:</label>
+                <input type="text" name="nome" id="nome" placeholder="Seu nome aqui" autocomplete="on" required autofocus>
+            </p>
+            <p>
+                <label for="email">Seu nome:</label>
+                <input type="email" name="email" id="email" placeholder="Seu e-mail aqui" autocomplete="on" required>
+            </p>
+            <p>
+                <label for="txt">Seu nome:</label>
+                <textarea name="contato" id="contato" cols="30" rows="10"></textarea>
+            </p>
+            <button type="submit">Enviar</button>
+        </fieldset>
+        </form>
+        <br>
+        <fieldset>
+            <legend>Fale por telefone</legend>
+        <p><img src="img/zap.png" alt="Aplicativo Whatsapp" width="20"> Whatsapp e telefone:</p>
+        <p><a href="tel">(85) 9 8533-9934</a></p>
+    </fieldset>
+</body>
+</html>
