@@ -44,4 +44,7 @@ nav {
 body {
     background-color: rgb(220, 220, 255);
 }
+li {
+    list-style-position: inside;
+}
 
